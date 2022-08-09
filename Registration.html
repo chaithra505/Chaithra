@@ -1,0 +1,76 @@
+
+<form style="background-color: #FAEBD7;">
+  <h1 style = "text-align: center;">Admission Form</h1>
+  <div>
+    <p>Name of Student:</p>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname"  autofocus>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname"  >
+  </div>
+<br>
+  <div>
+    <label>Gender: </label><br><br>
+    <input type="radio" id="html" name="Gender" value="Male">
+    <label for="Male">Male</label>
+    <input type="radio" id="css" name="Gender" value="Female">
+    <label for="Female">Female</label>
+    <input type="radio" id="javascript" name="Gender" value="Others">
+    <label for="Others">Others</label><br><br>
+  </div>
+
+  <div>
+    <label>DOB :</label>
+        <input type="date"><br><br>
+  </div>
+
+  <div>
+    <label for="fname">Religion:</label>
+    <input type="text" id="fname"  >
+    <label for="lname">  Caste:</label>
+    <input type="text" id="lname" >
+  </div><br>
+  <div>
+  <label>Parents or Guardian Name :</label>
+        <input placeholder="First name" type="text">
+        <input placeholder="Last name" type="text"><br><br>
+  </div>
+  <div>
+  <label for ="email">Email: </label>
+  <input type="email" name="email" placeholder="xya@gmail.com" required><br> <br>
+  <label for="phone">Enter your phone number: </label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+  </div>
+
+  <div>
+  <label>Course Intrested In:</label>
+        <select name="Course" id="Course">
+            <option value="Science">Science</option>
+            <option value="Commerce">Commerce</option>
+            <option vlaue="Arts">Arts</option>
+        </select><br><br>
+  </div>
+
+
+  <div>
+    <strong>Upload SSLC Marks Card</strong><br><br>
+
+    <label for="myfile">Select a file:</label>
+    <input type="file" id="myfile" name="myfile" required><br><br>
+  </div>
+  <div>
+  <label for="Address">Address:</label><br>
+  <textarea name="message" rows="4" cols="40"></textarea><br><br>
+  
+  </div>
+  <div>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" rows="10" cols="20"><br><br>
+  
+  </div>
+
+  <input type="button" onclick="alert('Submitted Succesfully')" value="Submit">
+  <input type="reset">
+
+
+</form>
